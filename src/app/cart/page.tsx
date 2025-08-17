@@ -6,6 +6,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { Trash2, Minus, Plus } from 'lucide-react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function CartPage() {
   const [searchQuery, setSearchQuery] = useState('');
@@ -54,8 +55,14 @@ export default function CartPage() {
               <div key={item.id} className="bg-white rounded-lg shadow-md p-6">
                 <div className="flex items-center space-x-4">
                   {/* Product Image */}
-                  <div className="w-20 h-20 bg-gray-200 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <span className="text-gray-600 text-xs text-center">{item.title}</span>
+                  <div className="w-20 h-20 bg-gray-200 rounded-lg flex items-center justify-center flex-shrink-0 overflow-hidden">
+                    <Image
+                      src={item.image}
+                      alt={item.title}
+                      width={80}
+                      height={80}
+                      className="w-full h-full object-cover"
+                    />
                   </div>
 
                   {/* Product Details */}

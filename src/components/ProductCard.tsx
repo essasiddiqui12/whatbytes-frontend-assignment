@@ -50,10 +50,14 @@ export default function ProductCard({ product }: ProductCardProps) {
     <Link href={`/product/${product.id}`}>
       <div className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden">
         {/* Product Image */}
-        <div className="aspect-square bg-gray-200 flex items-center justify-center">
-          <div className="w-32 h-32 bg-gray-400 rounded-lg flex items-center justify-center">
-            <span className="text-gray-600 text-sm">{product.title}</span>
-          </div>
+        <div className="aspect-square bg-gray-200 flex items-center justify-center overflow-hidden">
+          <Image
+            src={product.image}
+            alt={product.title}
+            width={400}
+            height={400}
+            className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+          />
         </div>
 
         {/* Product Details */}

@@ -8,6 +8,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { Star, Minus, Plus } from 'lucide-react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function ProductDetail() {
   const params = useParams();
@@ -84,10 +85,14 @@ export default function ProductDetail() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 p-8">
             {/* Image Section */}
             <div className="space-y-4">
-              <div className="aspect-square bg-gray-200 rounded-lg flex items-center justify-center">
-                <div className="w-64 h-64 bg-gray-400 rounded-lg flex items-center justify-center">
-                  <span className="text-gray-600 text-lg font-medium">{product.title}</span>
-                </div>
+              <div className="aspect-square bg-gray-200 rounded-lg overflow-hidden">
+                <Image
+                  src={product.image}
+                  alt={product.title}
+                  width={600}
+                  height={600}
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
 

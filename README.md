@@ -4,7 +4,7 @@ A modern e-commerce product listing application built with Next.js and Tailwind 
 
 ## Live Demo
 
-**Deployed URL:** [Coming Soon - Will be deployed to Vercel]
+**Deployed URL:** [https://what-bytes-o0n6k27q3-essa-siddiquis-projects.vercel.app](https://what-bytes-o0n6k27q3-essa-siddiquis-projects.vercel.app)
 
 ## Assignment Requirements Completed
 

@@ -43,16 +43,16 @@ export default function Home() {
           onPriceRangeChange={setPriceRange}
         />
         
-        <main className="flex-1 p-6">
-          <div className="max-w-7xl mx-auto">
-            <h1 className="text-2xl font-bold text-gray-900 mb-6">Product Listing</h1>
+        <main className="flex-1 p-4 bg-gray-50">
+          <div className="max-w-6xl">
+            <h1 className="text-xl font-semibold text-gray-900 mb-4">Product Listing</h1>
             
             {filteredProducts.length === 0 ? (
               <div className="text-center py-12">
                 <p className="text-gray-500 text-lg">No products found matching your criteria.</p>
               </div>
             ) : (
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 {filteredProducts.map(product => (
                   <ProductCard key={product.id} product={product} />
                 ))}

@@ -2,20 +2,20 @@
 
 A modern e-commerce product listing application built with Next.js and Tailwind CSS for the WhatBytes Frontend Developer Intern assignment.
 
-## 🚀 Live Demo
+## Live Demo
 
 **Deployed URL:** [Coming Soon - Will be deployed to Vercel]
 
-## 📋 Assignment Requirements Completed
+## Assignment Requirements Completed
 
-✅ **Home Page (/) - Product Listing**
+**Home Page (/) - Product Listing**
 - Header with logo, search bar, and cart icon with badge
 - Sidebar with category filters and price range slider
 - Responsive product grid (3 columns desktop, 2 tablet, 1 mobile)
 - Product cards with image, title, price, rating, and "Add to Cart" button
 - Footer with copyright and social media icons
 
-✅ **Product Detail Page (/product/[id])**
+**Product Detail Page (/product/[id])**
 - Dynamic routing with Next.js
 - Product image display
 - Product details (title, price, description, category)
@@ -23,14 +23,14 @@ A modern e-commerce product listing application built with Next.js and Tailwind 
 - Add to Cart functionality
 - Responsive design
 
-✅ **Bonus - Cart Page (/cart)**
+**Bonus - Cart Page (/cart)**
 - List of added products
 - Quantity update controls
 - Remove item functionality
 - Price summary with subtotal, tax, and total
 - Responsive design
 
-✅ **Logic Implementation**
+**Logic Implementation**
 - Category and price filtering
 - Search functionality with string matching
 - URL-based filters support
@@ -38,7 +38,7 @@ A modern e-commerce product listing application built with Next.js and Tailwind 
 - Cart state persistence in localStorage
 - Conditional rendering for empty states
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Framework:** Next.js 15.4.6 with App Router
 - **Styling:** Tailwind CSS 4.0
@@ -47,7 +47,7 @@ A modern e-commerce product listing application built with Next.js and Tailwind 
 - **Icons:** Lucide React
 - **Deployment:** Vercel
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 src/
@@ -73,7 +73,7 @@ src/
     └── product.ts
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -100,7 +100,7 @@ npm run dev
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## 📱 Features
+## Features
 
 ### Home Page
 - **Search**: Real-time product search across title and description
@@ -121,7 +121,7 @@ npm run dev
 - **Price Calculation**: Real-time total calculation with tax
 - **Persistent Storage**: Cart state saved in localStorage
 
-## 🎨 Design Implementation
+## Design Implementation
 
 The application closely matches the provided design mockup with:
 - Blue color scheme (#3B82F6 primary)
@@ -130,7 +130,7 @@ The application closely matches the provided design mockup with:
 - Proper spacing and typography
 - Interactive elements with hover states
 
-## 🔧 Development Scripts
+## Development Scripts
 
 ```bash
 npm run dev      # Start development server
@@ -139,7 +139,7 @@ npm run start    # Start production server
 npm run lint     # Run ESLint
 ```
 
-## 📦 Deployment
+## Deployment
 
 This project is configured for easy deployment on Vercel:
 
@@ -147,20 +147,20 @@ This project is configured for easy deployment on Vercel:
 2. Connect repository to Vercel
 3. Deploy automatically
 
-## 🎯 Assignment Compliance
+## Assignment Compliance
 
-- ✅ Next.js setup with TypeScript
-- ✅ Tailwind CSS for styling
-- ✅ Lucide React for icons
-- ✅ Logical feature-based commits
-- ✅ Public GitHub repository
-- ✅ Responsive design matching mockup
-- ✅ All required functionality implemented
-- ✅ Bonus cart page included
+- Next.js setup with TypeScript
+- Tailwind CSS for styling
+- Lucide React for icons
+- Logical feature-based commits
+- Public GitHub repository
+- Responsive design matching mockup
+- All required functionality implemented
+- Bonus cart page included
 
-## 👨‍💻 Developer
+## Developer
 
-Built by [Your Name] for WhatBytes Frontend Developer Intern Assignment
+Built for WhatBytes Frontend Developer Intern Assignment
 
 ---
 
